@@ -1,0 +1,15 @@
+GFXFX2. Collection of graphics based
+sources. Made by Bas van Gaalen.
+Major topics: 3d rotation, Polygons
+(triple and quad), Flat-Shading,
+Gouraud Shading, Texture Mapping,
+Hidden face removal, Mode-X, Mode-12h,
+Mode 13h, Coppers, Fractals, Game
+techniques, Demo coding, Mouse
+routines, Palette routines, Plasma's,
+File-Format viewer: GIF, PCX, BMP,
+LBM, RIX and CEL, Scaling, Ten (10)
+different scrolls (horizontal,
+vertical, hardware, text, graphics,
+etc.), Sprites (normal, transparent),
+Voxel space, cross-fading, and more...

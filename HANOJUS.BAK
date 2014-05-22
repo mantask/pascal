@@ -1,0 +1,44 @@
+program Hanojaus_Bokstai;
+   uses crt;
+   var zied : integer;
+
+   procedure han (zied : integer; pr, t, gal : char);
+   begin
+      if zied > 0 then
+       begin
+         han (zied - 1, pr, gal, t);
+         writeln ('Zieda ', zied, ' is ', pr,' i ', gal);
+         han (zied - 1, t, pr, gal);
+       end
+   end;
+
+
+
+
+
+
+
+procedure Towers (count : Integer; source, dest, spare : char);
+begin
+ if count
+  then
+         writeln ('Zieda ', count, ' is ', source,' i ', dest);
+  else
+  begin
+   Towers (count-1, source, spare, dest);
+   Towers (1, source, dest, spare);
+   Towers (count-1, spare, source, dest);
+  end
+
+end;
+
+
+
+begin
+  clrscr;
+  write ('Kiek turite ziedu? ');
+  readln (zied);
+  han (zied, '1', '2', '3');
+  towers (zied, '1', '3', '2');
+  readkey;
+end.

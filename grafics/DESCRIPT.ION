@@ -1,0 +1,88 @@
+BOTS.PCX R2D2 and C3PO, used for demo's
+BAS.GIF The author in time his hair was short :)
+SVGA256.BGI SuperVGA BGI-driver
+GFXFX2.CEL GFXFX2 logo
+FILE_ID.DIZ Short file description for BBS's
+GFXFX2.DOC Doc and registration information
+FILES.GFX More detailed description of all files
+REGISTER.GFX Registration form
+BOTS.GIF R2D2 and C3PO - check with PV
+ANSI.INC ANSI file, check with 640x480
+CHARS.INC Text characterset
+CHARSET.INC The characterset in full-screen
+GFXFX2.PCX GFXFX2 map for texturemapping
+BP70UNIT.ZIP Borland Pascal 7.0 units
+TP60UNIT.ZIP Turbo Pascal 6.0 units
+BOTS.SCI R2D2 and C3PO...
+3D_13H.PAS 3D rotation in Mode-13h
+3D_FCUBE.PAS Fire cube
+3D_HOLE.PAS See-through object
+3D_LINE.PAS Hidden surface removal
+3D_TMAP1.PAS Gouraud Shading
+3D_TMAP2.PAS Texture Mapping with normal shading
+3D_TMAP3.PAS Texture Mapping with Gouraud Shading
+3D_TRANS.PAS Transparent cube
+640X480.PAS Mode-12h demo
+CANNON.PAS Realistic Cannon-ball simulation
+CHARSET.PAS Charset converter, for SCR_TXT2
+CONVERT.PAS System converter
+COPPER1.PAS Copper1
+COPPER3.PAS Copper3
+FILLTEST.PAS Floodfill test, using a small drawprg.
+FRACTAL2.PAS Julia Fractal using BGI-driver
+LENS.PAS Lens-effect, 2nd Reality-alike
+LIST.PAS Simple list program
+MINIGAME.PAS Small game
+MODEX.PAS Mode-X demonstration
+PLASMAT.PAS Plasma in Mode-Q
+ROTATE1.PAS Rotating sphere and torus
+ROTATE2.PAS Rotating stars
+SCR_DYPP.PAS Scroll: DYPP
+SCR_SIN.PAS Scroll: Sine
+SCR_SMTH.PAS Scroll: Smooth text
+SCR_SPRL.PAS Scroll: Spiral-shape
+SCR_TXT2.PAS Scroll: proportional in text-mode
+SPRITES1.PAS Sprites: see-thru
+SPRITES3.PAS Sprites: non-see-thru (solid)
+STRETCH.PAS Hardware stretch
+SWITCH.PAS Switch number of lines on VGA/Textmode
+TESTTXT.PAS Demonstration of text-unit
+VIEWGIF.PAS View GIF files
+VIEWPCX.PAS View PCX files (fast)
+VIEWSCI1.PAS View SCI files, in Mode-X
+VOXEL.PAS Voxel landscape
+XFADE.PAS Simple Crossfade
+PV.PAS Picture Viewer!
+TXTMOUSE.PAS Bonus file!
+SAVEPCX.PAS Save PCX demo
+REFRESH.PAS Test refresh-rate
+WAVY.PAS Hardly mentionable
+STARS.PAS Star sky
+SCR_VGA.PAS Scroll: simple VGA
+SVGA.PAS SuperVGA demo, using ET-4000 logic
+FRACTAL1.PAS Julia Fractal using ET-4000 logic
+VIEWSCI2.PAS View SCI files, in Mode-13h
+PLASMA1.PAS Plasma in Mode-X
+WORMHOL2.PAS New method to do same Wormhole
+COPPER4.PAS Copper4
+SCR_TXT1.PAS Scroll: wavy in text-mode
+WORMHOL1.PAS Conventional Wormhole
+PALTEST.PAS Palette-unit demonstration
+PLASMA2.PAS Plasma in Mode-13h
+MOUSTEST.PAS Mouse-unit demonstration
+DOTS1.PAS Dots1
+SPRITES2.PAS Sprites: transparent
+3D_STARS.PAS 3D stars with parallax
+PIXELATE.PAS Hardly mentionable
+SCR_HUGE.PAS Scroll: Large
+3D_MDX1.PAS 3D rotation in Mode-X
+BOUNCE.PAS Bounce
+DOTS2.PAS Dots2
+SCR_HRES.PAS Scroll: High Resolution, vertical
+COPPER2.PAS Copper2
+SCR_UP.PAS Scroll: vertical in Mode-Q
+DOTS3.PAS Dots3
+SCALE.PAS Scale and Mirror demo
+MDX_MODE.INC Mode-X specifications
+UNITINT.ZIP Units interfaces
+BP70CRT.ZIP Patched CRT unit for BP7.0 only

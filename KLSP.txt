@@ -1,0 +1,52 @@
+ ============================
+ KLSP ® Mantas Kanaporis 2000
+ ============================
+
+ ÁVADAS
+
+ Tai dosinë programa, skirta kvadratinëms lygtims spræsti pagal formulæ ax²+bx+c=0,
+kai a nelygu 0, ir sandaugai pagal formulæ a(x-x1)(x-x2) iðskirti.
+
+ MENIU LANGAS
+
+>	KLSP ® Mantas Kanaporis 2000                                                  {Programos pavadinimas}
+>	============================                                                  {ir autorius}
+>
+>	Iveskite kintamuosius eilës tvarka pagal ax²+bx+c=0 formulæ, kai a nelygu 0   {Nadojama formulë}
+>
+>	Iveskite a: 10                                                                {Kintamøjø ávedimas}
+>	Iveskite b: -19
+>	Iveskite c: -2
+>	
+>       
+>       Lygties 10x²-19x-2=0                                                          {Lygtis}
+>       Diskriminantas lygus 441, o x=(19±/441):20, /441=±21                          {Diskriminanto ir x reiðkmë}
+>	-------------------------------------------------------------
+>	Lygties ðaknys lygios:  2.0000000000E+00 ir -1.0000000000E-01                 {Lygties ðaknys}
+>	-------------------------------------------------------------
+>	Ar nori iðkaidyti lygtá dauginamaisiais? T/N
+>
+>	Iðkirta sandauga atrodo taip:
+>
+>	10 (x - 2.000) (x + 0.100)                                                    {Iðskirta sandauga}
+>
+>	******************lygtis*baigta*spræsti**********************                 {Lygties sprendimo pabaiga}
+>
+>	Ar pradësime ið naujo? T/N
+
+ NAUDOJIMAS
+
+ Paleidus sprogramà, reikia ávesti kintamuosius eilës tvarka, kaip praðo programa.
+Ávedus skaièiø reikia paspausti ENTER klaviðà. 
+ Pastaba: ávesti galima tik sveikuosius skaièius, jokiø kitø simboliø neturëtø bûti,
+pvz.: turëdami tokià lygtá 2,1x² + 5,18x + 2,18 = 0, abi jos puses padaukinkite ið,
+ðiuo atveju, ið ðimto ir áveskite tokias reikðmes: a=210, b=518, c= 218.
+ Programa iðveda lygties ðaknis standartine iðraiðka su 10 skaitmenø po kablelio.
+Vëliau gelësite pasirinkti ar norësite lygtá skaidyti dauginamaisiais. Gale belieka
+pasirinkti, ar pradësite ið naujo ar baigsite darbà.
+
+ "KVADTATINIØ LYGÈIØ SPRENDIMO PROGRAMA"
+
+                                 autorius:	Mantas Kanaporis
+ 
+ Pastabas ar pasiûlymus siûskite e-mail'u:	vkanapor@takas.lt

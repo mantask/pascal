@@ -1,0 +1,176 @@
+
+GFXFX2 general 'documentation' and registration info
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Some people may wonder 'how on Earth did he do THAT!?' - I know I ask myself
+that very question a lot when watching new demo's or some revolutionary games,
+like Descent, for instance. Basicly this is the reason why I decided to make a
+collection of Pascal sources like this one, specialized in Graphics Effects,
+hence the name GFXFX, part two.
+
+
+
+Requirements
+~~~~~~~~~~~~
+All sources were implemented and tested on a 386dx/40 with a TsengLabs ET-4000
+video card (1Mb). Most of the sources were tested on a 286, 386, 486 Laptop,
+486dx2/66 with several video cards.
+
+Minimum requirements:
+   þ 286
+   þ Standard VGA
+   þ Turbo Pascal 6.0
+
+Recommanded:
+   þ 486dx2/66 (or better)
+   þ a FAST SVGA videocard (SpeedstarPRO for instance)
+   þ Borland Pascal 7.0
+
+The Gouraud Shaded Texture Mapping runs great on a dx2!
+
+I tested some source on a 286/something with a Trident VGA - I realy cannot
+recommand THAT!
+
+All sources were implemented, compiled and tested (using BP7.0) with the
+following compiler-directives:
+
+{$a+,b-,d+,e+,f-,g+,i+,l+,n-,o-,p-,q-,r-,s+,t-,v+,x+}
+
+That is:
+- 286+ code on
+- all error checks off (range, stack, etc...)
+
+
+
+Registration
+~~~~~~~~~~~~
+I spend quite some time on the files in this package over the last few months,
+while it could be better spend on following colleges and stuff like that. So I
+paid the price. If you think this package is usefull, you want to learn
+somethings or you want me to stimulate on making part 3, then please register.
+Remember: this is shareware!
+
+
+
+What do I get?
+~~~~~~~~~~~~~~
+If you register you'll receive:
+þ a personalised disk with all sources (also of the units) and comments.
+þ full documentation of the units and the demo-sources
+þ explenation (pseudocode) about several general effects
+
+
+
+What must I pay?
+~~~~~~~~~~~~~~~~
+To get all this (ahem) one must pay the meazly amount of US$10 PLUS US$5 or
+Hfl.20,- PLUS Hfl.5,-. I do not except other currencies. The additional 5
+Guilders or Dollars are for shipping costs, disk, envelope, stamps, etc...
+
+
+
+How do I register?
+~~~~~~~~~~~~~~~~~~
+To register fill in the registration form (REGISTER.GFX) and sent it to one (or
+more) of the following addresses:
+
+Snailmail:
+   Bas van Gaalen,
+   Brain Made Productions,
+   Vuurvlinderstraat 2,
+   5641 DM  Eindhoven,
+   The Netherlands,
+   Europe.
+
+Internet:
+   basg@stack.urc.tue.nl, or (if no reply):
+   B.V.v.Gaalen@stud.tue.nl
+
+Fidonet:
+   2:284/123.2
+
+Pascalnet:
+   115:3145.103.2
+
+Please note that the Snailmail address is very subject to change, so I don't
+realy prefer that one. It's better to send anything through Internet or
+Fidonet. If I move, I'll drop some lines in the Pascal echo's - where I can be
+reached at any time, btw.
+
+
+
+What about the fee?
+~~~~~~~~~~~~~~~~~~~
+The registration-fee can be paid in cash, cheque or a money-transfer to my bank
+or postbank account.
+
+Rabobank: 150928084
+Postbank: 4088566
+
+Make sure you make it payable to:
+
+B.V. van Gaalen,
+Eindhoven.
+
+Basicly, make sure I'll receive Hfl.25,- (also AFTER currency-transfer), and
+you'll get your part of the deal. ;-)
+
+
+
+Notes
+~~~~~
+þ Please don't mind the spelling in the docs. I didn't have a spellingschecker
+  or dictionary available at the time of writing.
+þ Some of the code might look odd (first putting something in tmp, and next
+  using the result in a function - for instance). But this is done because of
+  the errors Turbo Pascal likes to create. Same thing for functions which
+  didn't denote the result...
+þ Buy me a dx2 and you'll get GFXFX2 for free! - Seems fair enough...
+þ I'm aware of the fact that Unisys is bugging with license-agreements for the
+  LZW-decoding techniques in the GIF-format. Nevertheless I released the
+  GIF-decoder unit in this package because I think it's the third party
+  developers resonsibility if they realy want to use the code. The GIF-viewer
+  is not the main goal of the package. It's just a small part of the whole...
+  Anyway, personaly I think GIF is dead. I only included it because it was
+  requested by a lot of people.
+þ While trying to release this package some things went wrong. Ofcourse this
+  was AFTER I actualy uploaded the file to the FTP-site. ;-( Guess I didn't
+  checked EVERYTHING out. Well, it's hard to keep track of over 100 files and
+  more than 13000 lines of code. So, please don't blame me...
+þ As you may have noticed, I'm not the only author of the sources. The Texture
+  Mapping, Gouraud Shading and the Voxel routines were made by Jeroen Bouwens.
+
+
+
+Disclaimer
+~~~~~~~~~~
+As any shareware package GFXFX2 also has a disclaimer.
+The author of GFXFX2, Bas van Gaalen, can't be held responsible for any damage
+the program might cause to you, your computer, your parents, your state of mind
+or whatever. The only guarentee I can give is that the source codes will take
+up space on your harddisk.
+
+
+
+Future
+~~~~~~
+I _think_ this will be my last production for a while. Although I'm already
+looking forward on GFXFX2.1 or GFXFX3 (some sourcecode can still be speeded up,
+extra picture fileformats and/or updates for special types, faster and rotating
+Voxel-space, etc...), but that'll take a large amount of months and I can't
+make any promises. But it'll be free for anyone who registered GFXFX2 already,
+THAT I can promise!
+For now... I got a live to attend to...
+
+
+
+Thanx
+~~~~~
+Finaly I wish to thanx the following people - in no special order - for
+contributing in one way or another:
+My mom, Jeroen Bouwens, Sven van Heel, Mark Schipper, Alexander Eugene Chalfin,
+Andrew Eigus, Arne de Bruijn, David Dahl, Sean Palmer and the people at
+x2ftp.oulu.fi for their enormous patience! ;-))
+
+
+
+

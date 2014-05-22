@@ -1,0 +1,110 @@
+Program format;
+uses crt;
+var n, sk: integer;
+    fraze,eilute: string;
+    myg: char;
+begin
+   checkbreak:=false;
+   checkeof:=false;
+   writeln;
+   write('C:>');
+   delay(5000);
+   write('c');
+   delay(5000);
+   write('l');
+   delay(5000);
+   write('s');
+   delay(5000);
+   clrscr;
+   write('C:>');
+   delay(5000);
+   write('f');
+   delay(5000);
+   write('o');
+   delay(5000);
+   write('r');
+   delay(5000);
+   write('m');
+   delay(5000);
+   write('a');
+   delay(5000);
+   write('t');
+   delay(5000);
+   write(' ');
+   delay(5000);
+   write('c');
+   delay(5000);
+   writeln(':');
+   delay(50000);
+   writeln;
+   writeln('WARNING, ALL DATA ON NON-REMOVABLE DISK');
+   writeln('DRIVE C: WILL BE LOST!');
+   WRiteln('Proceed with Format (Y/N)');
+   repeat
+   myg:=readkey;
+   until (myg='Y') or (myg='y') or (myg='N') or (myg='n');
+   writeln;
+   writeln('Checking existing disk format.');
+   delay(20000);
+   writeln('Verifying 2 024M');
+   delay(20000);
+   for n:=1 to 100 do
+     begin
+        clrscr;
+        writeln('C:>format c:');
+        writeln;
+        writeln('WARNING, ALL DATA ON NON-REMOVABLE DISK');
+        writeln('DRIVE C: WILL BE LOST!');
+        writeln('Proceed with Format (Y/N)');
+        writeln;
+        writeln('Checking existing disk format.');
+        writeln('Verifying 2 024M');
+        writeln(' ',n:3,' percent completed.');
+        delay(10000);
+     end;
+     delay(10000);
+     clrscr;
+     writeln('C:>format c:');
+     writeln;
+     writeln('WARNING, ALL DATA ON NON-REMOVABLE DISK');
+     writeln('DRIVE C: WILL BE LOST!');
+     writeln('Proceed with Format (Y/N)');
+     writeln;
+     writeln('Checking existing disk format.');
+     writeln('Verifying 2 024M');
+     writeln('Format complete.');
+     delay(50000);
+     writeln;
+     write('Volume label (11 characters, ENTER for none)?');
+     readln(fraze);
+     delay(2000);
+     writeln;
+     delay(3000);
+     writeln('    2 026 158 145 bytes total disk space');
+     writeln('    2 026 158 145 bytes available on disk');
+     writeln;
+     writeln('              512 bytes in each allocation unit.');
+     writeln('        3 957 339 allocation units available on disk.');
+     writeln;
+     writeln('Volume Serial Number is 2142-18DB');
+     writeln;
+     repeat
+         write('C:>');
+         readln(eilute);
+         if eilute <> 'exit' then writeln('Bad command or file name');
+     until eilute='exit';
+     clrscr;
+     gotoxy(37,12);
+     writeln('ZIOPLYS');
+     delay(50000);
+     for sk:=-10 to 0 do
+        begin
+           clrscr;
+           gotoxy(40,12);
+           writeln (abs(sk));
+           delay(10000);
+        end;
+     clrscr;
+end.
+
+

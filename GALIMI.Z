@@ -1,0 +1,20 @@
+program visiVar;
+
+     procedure visi (el, zl: integer; raides: string);
+         var ck, il: integer;
+             rez: string;
+       begin
+           if raides[il] = raides[el] then dec(il)
+           else begin
+              inc(ck);
+              rez := rez + raides[il];
+              if il = 4 then writeln (rez);
+              visi (el, zl, raides)
+           end;
+       end;
+
+    var el, zl: integer;
+        raides: string;
+begin
+   visi (4, 4, 'ABCD');
+end.

@@ -1,0 +1,218 @@
+
+Here's an overview of the sources present in this package...
+
+3D_13H.PAS
+  Demonstration of several 3d object and the rotation principal. All in
+  standard mode 13h.
+
+3D_FCUBE.PAS
+  Flamy cube - based on the firesources discussed a lot in the Fidonet Pascal
+  area.
+
+3D_HOLE.PAS
+  Three dimensional rotation with a picture in background. Normal mode 13h -
+  the object is kinda slow, might be buggy on some video-cards (like a
+  Trident).
+
+3D_LINE.PAS
+  Small demo of the hidden-line principal.
+
+3D_MDX1.PAS
+  Basicly same thing as 3D_13H.PAS, but all in mode-x. Very smooth and fast!
+
+3D_STARS.PAS
+  Stars in 3d, parallax.
+
+3D_TMAP1.PAS
+  Gouraud Shaded cube.
+
+3D_TMAP2.PAS
+  Shaded/Non Shaded Texture Mapped cube.
+
+3D_TMAP3.PAS
+  Gouraud Shaded Texture Mapping with real-time scaling.
+
+3D_TRANS.PAS
+  Transparent cube.
+
+640X480.PAS
+  Demonstration of the mode-12h unit, displays crunched/uncrunched TheDraw
+  <tm> ANSI files in graphics mode.
+
+BOUNCE.PAS
+  Kinda simple bounce demo.
+
+CANNON.PAS
+  Realistic Cannon-ball simulation.
+
+CHARSET.PAS
+  Charset-extractor for one of the textscrolls (converts TheDraw <tm> ANSI
+  screen to charset-layout).
+
+CONVERT.PAS
+  Convert any number-system to any other (2 to 36 limited, though).
+
+COPPER1.PAS
+  Horizontal Copper raster in Assembler.
+
+COPPER2.PAS
+  Same thing in Pascal.
+
+COPPER3.PAS
+  Real-time color-mix copper.
+
+COPPER4.PAS
+  Multiple coper: mix of 2 and 3.
+
+DOTS1.PAS
+DOTS2.PAS
+DOTS3.PAS
+  Screen-saver alike stuff.
+
+FILLTEST.PAS
+  Mini drawing program to demonstrate the smart and full proof floodfill.
+
+FRACTAL1.PAS
+  Julia Fractal in SVGA using direct video logic of the ET-4000.
+
+FRACTAL2.PAS
+  Same fractal using the BGI-driver.
+
+LENS.PAS
+  Lens-effect a-la 2nd Reality.
+
+LIST.PAS
+  Small list program.
+
+MINIGAME.PAS
+  Mini game to demonstrate several game techniques like smart bullits,
+  collision detection, etc...
+
+MODEX.PAS
+  Demonstration of the mode-x unit. Supports independant smooth scrolling
+  screens in all directions, picture displaying, text, fill, etc...
+
+MOUSTEST.PAS
+  Demo of the mouse-unit.
+
+PALTEST.PAS
+  Demo of the palette unit. Supports fading up, down pal-to-pal, etc...
+
+PIXELATE.PAS
+  Pixelate zoom - slow Pascal demo.
+
+PLASMA1.PAS
+  Plasma in Mode-X.
+
+PLASMA2.PAS
+  Plasma in Mode-13h.
+
+PLASMAT.PAS
+  Plasma in Mode-Q.
+
+PV.PAS
+  Picture Viewer. Graphical picture viewer - demo of the File Format units of
+  GFXFX2. Supports GIF, PCX, BMP, LBM, RIX and CEL formats. Also all (S)VGA
+  mode's are supported though a BGI-driver.
+
+REFRESH.PAS
+  Test monitor's refresh-rate.
+
+ROTATE1.PAS
+  Rotating Sphere and Torus.
+
+ROTATE2.PAS
+  Rotating stars.
+
+SAVEPCX.PAS
+  Save a screen to a PCX-file. The PCX-file is limited to 64Kb (data), so
+  larger pictures are truncated.
+
+SCALE.PAS
+  Scaling and Mirroring demo, possebilities seem endless...
+  Five demo's included.
+
+SCR_DYPP.PAS
+  Scroll: Different-Y-Pixel-Position.
+
+SCR_HRES.PAS
+  Scroll: High-resolution (Mode-10h) vertical hardware scroll.
+
+SCR_HUGE.PAS
+  Scroll: Large horizontal scroll.
+
+SCR_SIN.PAS
+  Scroll: Sine-scroll.
+
+SCR_SMTH.PAS
+  Scroll: Real smooth text scroll.
+
+SCR_SPRL.PAS
+  Scroll: Spiral scroll - kinda slow...
+
+SCR_TXT1.PAS
+  Scroll: scroll in textmode, nr.1
+
+SCR_TXT2.PAS
+  Scroll: scroll in textmode, nr.2
+
+SCR_UP.PAS
+  Scroll: full screen vertical graphics scroll in Mode-Q.
+
+SCR_VGA.PAS
+  Scroll: plain ans simple VGA-scroll.
+
+SPRITES1.PAS
+  See-through sprites-demo.
+
+SPRITES2.PAS
+  Transparent sprites-demo.
+
+SPRITES3.PAS
+  Non-see through (solid) sprites-demo.
+
+STARS.PAS
+  More stars.
+
+STRETCH.PAS
+  Full screen hardware stretch.
+
+SVGA.PAS
+  Small SuperVGA demo, again using ET-4000 logic.
+
+SWITCH.PAS
+  Switch number of lines in textmode: 12, 14, 21, 25, 38, 43 and 50.
+
+TESTTXT.PAS
+  Small and incomplete demo of the functions and procedures of the Text-unit.
+
+TXTMOUSE.PAS
+  Bonus file. Graphical mouse-pointer in textmode.
+
+VIEWGIF.PAS
+  Small demo of a GIF-viewer.
+
+VIEWPCX.PAS
+  Small demo of the fast PCX-loader.
+
+VIEWSCI1.PAS
+  Small demo of a picture-viewer in Mode-X, doesn't use the RIX-unit.
+
+VIEWSCI2.PAS
+  Small demo of a picture-viewer in Standard Mode-13h.
+
+VOXEL.PAS
+  Voxel landscape.
+
+WAVY.PAS
+  Uhhhh...
+
+WORMHOL1.PAS
+  Conventional wormhole.
+
+WORMHOL2.PAS
+  New method of same wormhole.
+
+XFADE.PAS
+  Simple crossfade.
+

@@ -1,0 +1,28 @@
+           SKAI∂IAUS VERTIMAS Iæ BET KURIOS SISTEMOS Ω DEæIMTAIN∑
+
+    Paÿym”kime  de’imtainio  skai—iaus  vienet÷  skaitmen‘ - S(0), de’im—i÷ -
+ S(1) ir t.t., skai—iavimo sistemos pagrind–, pakelt– nuliniu laipsniu - P^0,
+ pirmuoju  laipsniu  -  P^1  ir  t.t.  Tuomet  de’imtain‘ skai—i÷ bet kurioje
+ skai—iavimo sistemoje galima uÿra’yti taip:
+    S(n) S(n-1) .... S(1) S(0) =
+    = S(n) * P^n + S(n-1) * P^n-1 + .... + S(1) * P^1 + S(0) * P^0
+    Tai  ir  yra  de’imtainio  skai—iaus  pavertimo  ‘  bet kuri– skai—iavimo
+ sistem– i’rai’ka.
+    æe’etain‘ skai—i÷ galima uÿra’yti taip:
+    405(6-tain”je sist.) = 4 * 6^2 + 0 * 6^1 + 5 * 6^0 =
+    = 144 + 5 = 149(10-tain”je sist.)
+    Kairioji  lygyb”s  pus”  sudaryta  i’ de’imtaini÷ skai—i÷ sandaug÷ sumos,
+ taigi, atlik“ veiksmus, gauname de’imtain‘ skai—i÷.
+
+
+          SKAI∂IAUS VERTIMAS Iæ DEæIMTAIN∏S Ω BET KURIµ KITµ SISTEMµ
+
+    Skai—i÷  de’imtain”je sistemoje daliname i’ pasirinktos sistemos pagrindo
+ ir  paimame  liekan–. Taip gauname ie’komo skai—iaus vienetus. V”l padalinus
+ i’ pasirinktos sistemos pagrindo, gausime ie’komo skai—iaus de’imtis ir t.t.
+    De’imtain‘ skai—i÷ ‘ ’e’etain‘ ver—iame ’itaip:
+    149 / 6 = 24 (Liekana - 5)
+    24 / 6 = 4 (Liekana - 0)
+    4 / 6 = 0 (Liekana - 4)
+    Liekanos  sudaro  skai—i÷  ’e’etain”je  sistemoje:  405.  Tai ir yra m◊s÷
+ ie’komas skai—ius.
